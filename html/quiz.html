@@ -1,0 +1,94 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/main.css">
+    
+</head>
+<body>
+    
+      <nav class="navbar">
+  <div class="container nav-content">
+    
+    <div class="logo">
+    <a href="../index.html">
+    <img src="../img/Logo.png" alt="logo">
+    </a>
+    </div>
+
+    <ul class="menu">
+      <li><a href="./grafiskprofil.html">Grafisk Profil</a></li>
+      <li><a href="./SoMe.html">SoMe</a></li>
+      <li><a href="./quiz.html">Quiz</a></li>
+    </ul>
+
+  </div>
+</nav>
+
+
+
+    <section class="quiz-section">
+
+<div id="quiz-start-screen">
+    <h2>Quiz</h2>
+    <p>Velkommen til BleikerQuizzen! Klar for å teste dine kunnskaper om Bleiker?</p>
+    <button id="start-quiz-btn">Start quiz</button>
+</div>
+
+<div id="quiz-container" style="display:none;">
+
+    <p id="question-counter"></p>
+    <p>Poeng: <span id="current-score">0</span></p>
+
+    <h3 id="question-text"></h3>
+
+    <div id="quiz-media"></div>
+
+    <div id="answers-container"></div>
+
+    <div id="feedback" style="display:none;"></div>
+
+    <button id="next-question-btn" onclick="nextQuestion()">Neste spørsmål</button>
+
+</div>
+
+<div id="results-screen" style="display:none;">
+    <h2>Ferdig!</h2>
+    <p>Poeng: <span id="final-score"></span></p>
+    <button id="restart-quiz-btn">Start på nytt</button>
+</div>
+
+</section>
+
+
+  </div>
+</div>
+
+
+<footer class="footer">
+
+<div class="container footer-content">
+
+<div>
+<img src="../img/Logo.png" alt="logo" class="footer-logo">
+</div>
+
+<div>
+<h4>Laget av</h4>
+<p>Jonas</p>
+</div>
+
+<div>
+<h4>Kontakt</h4>
+<p>jonaspjonas09@email.no</p>
+</div>
+
+</div>
+
+</footer>
+
+
+<script src="../script.js"></script>
+</body>
+</html>
